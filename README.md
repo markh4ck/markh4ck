@@ -41,7 +41,7 @@
 
 ---
 
-📹 Last videos on my Youtube channel [canal de Youtube](https://youtube.com/markh4ck?sub_confirmation=1)
+📹 Last videos on my [Youtube channel](https://youtube.com/markh4ck?sub_confirmation=1)
 
 <a href='https://www.youtube.com/watch?v=eqtWiryKf48&t=138s' target='_blank'>
   <img width='30%' src='https://i.ytimg.com/an_webp/eqtWiryKf48/mqdefault_6s.webp?du=3000&sqp=CMmq4cIG&rs=AOn4CLCQXfU6oxszxueINBkdDxFxAhHH1g' alt='Introducción a Assembly x86 con MASM en Visual Studio y Windows SDK' />
