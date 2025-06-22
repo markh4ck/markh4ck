@@ -41,10 +41,10 @@
 
 ---
 
-📹 Últimos vídeos en mi [canal de Youtube](https://youtube.com/midudev?sub_confirmation=1)
+📹 Últimos vídeos en mi [canal de Youtube](https://youtube.com/markh4ck?sub_confirmation=1)
 
 <a href='https://youtu.be/FkxUap1HK0E' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/FkxUap1HK0E/mqdefault.jpg' alt='¿Te cuesta el CSS y el diseño de tu web? ¡Este recurso te va a facilitar la vida!  Crea layouts con' />
+  <img width='30%' src='https://i.ytimg.com/an_webp/eqtWiryKf48/mqdefault_6s.webp?du=3000&sqp=CMmq4cIG&rs=AOn4CLCQXfU6oxszxueINBkdDxFxAhHH1g' alt='¿Te cuesta el CSS y el diseño de tu web? ¡Este recurso te va a facilitar la vida!  Crea layouts con' />
 </a>
 <a href='https://youtu.be/35Ov4DccveA' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/35Ov4DccveA/mqdefault.jpg' alt='Que está pasando con React: El estado de la comunidad' />
