@@ -1,7 +1,7 @@
 <img alt="Hand Wave" src="./assets/Hand%20Wave.gif" width='40' align="left"/><h2>Hey y'all! I'm Marc Aliaga</h2>
  <span style="width: 8px;"> </span>
-   <a href="https://youtube.com/midudev" target="blank">
-    <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="midudev" height="23px" width="33px" />
+   <a href="https://youtube.com/markh4ck" target="blank">
+    <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="markh4ck" height="23px" width="33px" />
   </a>
 
 ### 👨‍💻 &nbsp;About Me
