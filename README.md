@@ -7,7 +7,7 @@
 📚 &nbsp;Self-taught and always hungry to learn about system exploits, cryptographic protocols, and decentralized networks.\
 🧠 &nbsp;I believe in digital freedom, privacy, and the power of open-source tools.\
 🔭 &nbsp;Currently exploring network security, smart contracts, and secure software architecture.\
-✉️ &nbsp;Email me anytime at: marcaliagaborras@gmail.com\
+✉️ &nbsp;Email me anytime at: march4ck@protonmail.com\
 🔗 &nbsp;Connect with me on [LinkedIn](https://www.linkedin.com/in/marc-aliaga-ciberseguridad)
 
 <img alt="Night Coding" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDhhNGZhYTM5MTMwNzk1NTlmY2IzMDBjNDk2NWFjY2RjNjY0ZTUwYSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/xT9Igq1jYMHeVazWUw/giphy.gif" align="right"/>
@@ -44,13 +44,7 @@
 📹 Last videos on my Youtube channel [canal de Youtube](https://youtube.com/markh4ck?sub_confirmation=1)
 
 <a href='https://www.youtube.com/watch?v=eqtWiryKf48&t=138s' target='_blank'>
-  <img width='30%' src='https://i.ytimg.com/an_webp/eqtWiryKf48/mqdefault_6s.webp?du=3000&sqp=CMmq4cIG&rs=AOn4CLCQXfU6oxszxueINBkdDxFxAhHH1g' alt='¿Te cuesta el CSS y el diseño de tu web? ¡Este recurso te va a facilitar la vida!  Crea layouts con' />
-</a>
-<a href='https://youtu.be/35Ov4DccveA' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/35Ov4DccveA/mqdefault.jpg' alt='Que está pasando con React: El estado de la comunidad' />
-</a>
-<a href='https://youtu.be/MktkSD5JZzE' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/MktkSD5JZzE/mqdefault.jpg' alt='Desplegar sin tests, sin probar tus cambios, sin tener rollback, sin revisar los logs, sin un plan c' />
+  <img width='30%' src='https://i.ytimg.com/an_webp/eqtWiryKf48/mqdefault_6s.webp?du=3000&sqp=CMmq4cIG&rs=AOn4CLCQXfU6oxszxueINBkdDxFxAhHH1g' alt='Introducción a Assembly x86 con MASM en Visual Studio y Windows SDK' />
 </a>
 
 ### 🌐 &nbsp;Let's Connect
