@@ -1,6 +1,6 @@
 <img alt="Hand Wave" src="./assets/Hand%20Wave.gif" width='40' align="left"/><h2>Hey y'all! I'm Marc Aliaga</h2>
  <span style="width: 8px;"> </span>
-   <a href="https://youtube.com/markh4ck" target="blank">
+   <a href="https://youtube.com/@markh4ck" target="blank">
     <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="markh4ck" height="23px" width="33px" />
   </a>
 
@@ -45,7 +45,7 @@
 
 ---
 
-📹 Last videos on my [Youtube channel](https://youtube.com/markh4ck)
+📹 Last videos on my [Youtube channel](https://youtube.com/@markh4ck)
 
 <a href='https://www.youtube.com/watch?v=eqtWiryKf48&t=138s' target='_blank'>
   <img width='30%' src='https://i.ytimg.com/an_webp/eqtWiryKf48/mqdefault_6s.webp?du=3000&sqp=CMmq4cIG&rs=AOn4CLCQXfU6oxszxueINBkdDxFxAhHH1g' alt='Introducción a Assembly x86 con MASM en Visual Studio y Windows SDK' />
