@@ -4,7 +4,7 @@
 Hey, I'm Marc Aliaga (a.k.a. Markh4ck)
 
 
-<a href="https://youtube.com/@marcaliaga" target="_blank"> <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="Marc Aliaga YouTube" height="23px" width="33px"/> </a> &nbsp; <a href="https://linkedin.com/in/marc-aliaga-ciberseguridad" target="_blank"> <img align="center" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" height="23px" width="23px"/> </a> &nbsp; <a href="mailto:marcaliagaborras@gmailc.com" target="_blank"> <img align="center" src="https://cdn-icons-png.flaticon.com/512/906/906312.png" alt="Gmail" height="23px" width="23px"/> </a>
+<a href="https://youtube.com/@marcaliaga" target="_blank"> <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="Marc Aliaga YouTube" height="23px" width="33px"/> </a> &nbsp; <a href="https://linkedin.com/in/marc-aliaga" target="_blank"> <img align="center" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" height="23px" width="23px"/> </a> &nbsp; <a href="mailto:marcaliagaborras@gmailc.com" target="_blank"> <img align="center" src="https://cdn-icons-png.flaticon.com/512/906/906312.png" alt="Gmail" height="23px" width="23px"/> </a>
 👨‍💻 About Me
 
 📊 Aspiring Quant & Algorithm Enthusiast | 🎥 Content Creator
