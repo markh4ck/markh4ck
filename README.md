@@ -13,11 +13,11 @@ Welcome to my GitHub profile. I'm passionate about pushing the boundaries betwee
 
 ### 📺 [MarcAliaga](https://www.youtube.com/@MarcAliaga) (EN) – Portfolio & Projects
 
-This is my main **English-language** channel where I present:
+This is my  **English-language** channel where I present:
 
 - Personal research and engineering projects
 - Algorithmic trading experiments
-- Performance-focused C/C++/Rust systems
+- Quantiative Finance
 - Visualizations and educational breakdowns of advanced technical topics
 
 ### 💻 [Markh4ck](https://www.youtube.com/@Markh4ck) (ES) – Informática & Computación
@@ -40,7 +40,7 @@ A **Spanish-language** channel dedicated to:
 
 Feel free to check out my repositories, give feedback, or collaborate. I’m always open to connect with like-minded developers, researchers, and educators.
 
-- 📧 Contact: aliaga.marc.dev [at] gmail [dot] com
+- 📧 Contact: marcaliagaborras@gmail.com
 - 🔗 LinkedIn / Website: Coming soon
 - 🎯 Goal: Contribute to cutting-edge projects in **quant finance**, **systems**, or **compilers** — and one day, collaborate with institutions like **MIT** or similar.
 
