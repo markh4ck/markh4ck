@@ -1,35 +1,50 @@
-<img alt="Hand Wave" src="./assets/Hand%20Wave.gif" width="40" align="left"/>
+# 👋 Hi, I'm Marc Aliaga
 
+Welcome to my GitHub profile. I'm passionate about pushing the boundaries between **technology**, **quantitative finance**, and **low-level computing**. Whether it's diving deep into the internals of an operating system, exploring algorithmic trading strategies, or building educational content—I thrive at the intersection of precision and performance.
 
-Hey, I'm Marc Aliaga (a.k.a. Markh4ck)
+## 🧠 About Me
 
+- 🎓 Independent researcher focused on **quantitative finance** and **low-level computer systems**.
+- 🔧 Strong interest in systems programming, reverse engineering, and compiler theory.
+- 📈 Fascinated by the mathematics of markets, stochastic processes, and high-frequency trading infrastructure.
+- 🌐 Content creator in both English and Spanish across two distinct channels.
 
-<a href="https://youtube.com/@marcaliaga" target="_blank"> <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="Marc Aliaga YouTube" height="23px" width="33px"/> </a> &nbsp; <a href="https://linkedin.com/in/marc-aliaga" target="_blank"> <img align="center" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" height="23px" width="23px"/> </a> &nbsp; <a href="mailto:marcaliagaborras@gmailc.com" target="_blank"> <img align="center" src="https://cdn-icons-png.flaticon.com/512/906/906312.png" alt="Gmail" height="23px" width="23px"/> </a>
-👨‍💻 About Me
+## 🎥 My Channels
 
-📊 Aspiring Quant & Algorithm Enthusiast | 🎥 Content Creator
+### 📺 [MarcAliaga](https://www.youtube.com/@MarcAliaga) (EN) – Portfolio & Projects
 
-🧩 Focused on finance, mathematics, algorithms, and data analysis.
+This is my main **English-language** channel where I present:
 
-🛠 Building projects for GitHub and portfolio content for YouTube.
+- Personal research and engineering projects
+- Algorithmic trading experiments
+- Performance-focused C/C++/Rust systems
+- Visualizations and educational breakdowns of advanced technical topics
 
-📚 Sharing knowledge about financial modeling, algorithmic problem-solving, and math concepts.
+### 💻 [Markh4ck](https://www.youtube.com/@Markh4ck) (ES) – Informática & Computación
 
-🎬 Creating tutorials and breakdowns on YouTube
-.
+A **Spanish-language** channel dedicated to:
 
-🔐 Advocate for open learning, research, and skill-sharing.
+- Deep dives into computer science fundamentals
+- Reverse engineering, exploit development, and system internals
+- Tutorials in C, Assembly, and OS development
+- Content aimed at empowering Spanish-speaking tech learners
 
-✉️ Contact: marcaliagaborras@gmail.com
+## 💼 Interests & Work
 
-📈 GitHub Stats
-<p align="center"> <a href="https://github.com/markh4ck"> <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=markh4ck&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/> <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=markh4ck&layout=compact&langs_count=8&theme=algolia"/> </a> </p>
-📹 Latest Videos
+- 🧮 Quantitative Models: Backtesting, statistical arbitrage, Monte Carlo simulations
+- 🧬 Systems: OS development, emulation, memory models
+- 🔒 Cybersecurity: RE/Exploit dev, binary analysis, secure systems
+- 🌍 Open-source: I believe in sharing knowledge and building in public
 
-🎥 From my YouTube channel
-:
+## 📫 Let's Connect
 
-<a href="https://www.youtube.com/watch?v=eqtWiryKf48&t=138s" target="_blank"> <img width="30%" src="https://i.ytimg.com/an_webp/eqtWiryKf48/mqdefault_6s.webp?du=3000&sqp=CMmq4cIG&rs=AOn4CLCQXfU6oxszxueINBkdDxFxAhHH1g" alt="Introducción a Assembly x86 con MASM en Visual Studio y Windows SDK"/> </a>
-🌐 Connect
+Feel free to check out my repositories, give feedback, or collaborate. I’m always open to connect with like-minded developers, researchers, and educators.
 
-<p align="center"> <a href="https://linkedin.com/in/marc-aliaga-ciberseguridad"><img src="https://img.shields.io/badge/-Marc%20Aliaga-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a> <a href="mailto:marcaliagaborras@gmailc.com"><img src="https://img.shields.io/badge/-marcaliagaborras@gmailc.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a> <a href="https://youtube.com/@marcaliaga"><img src="https://img.shields.io/badge/-YouTube-red?style=flat&logo=youtube&logoColor=white"/></a> </p>
+- 📧 Contact: aliaga.marc.dev [at] gmail [dot] com
+- 🔗 LinkedIn / Website: Coming soon
+- 🎯 Goal: Contribute to cutting-edge projects in **quant finance**, **systems**, or **compilers** — and one day, collaborate with institutions like **MIT** or similar.
+
+---
+
+> “Simplicity is the ultimate sophistication.” — Leonardo da Vinci
+
