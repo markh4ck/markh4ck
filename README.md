@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Marc Aliaga (aka MARKHACK ;) )
 
 ![GitHub followers](https://img.shields.io/github/followers/markh4ck?style=social)
-![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC9oPAy4zAJRZr-kvFy0vQEg?label=MarcAliaga%20YouTube&style=social)
+![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCOCQp5nPiB016V4QGVknxXw?label=MarcAliaga%20YouTube&style=social)
 ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCmMBAvl3sz_jDUBa77H40dA?label=Markh4ck%20YouTube&style=social)
 
 Welcome to my GitHub profile. I'm passionate about pushing the boundaries between **technology**, **quantitative finance**, and **low-level computing**. Whether it's diving deep into the internals of an operating system, exploring algorithmic trading strategies, or building educational content—I thrive at the intersection of precision and performance.
