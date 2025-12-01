@@ -35,7 +35,7 @@ A **Spanish-language channel** dedicated to:
 - 🔗 GitHub: [github.com/markh4ck](https://github.com/markh4ck)  
 - 🎥 YouTube: [Markh4ck](https://www.youtube.com/@Markh4ck)  
 
-![Coding GIF](https://media.giphy.com/media/l0ExncehJzexFpRHq/giphy.gif)
+![Coding GIF]()
 
 ---
 
