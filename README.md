@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Marc Aliaga
 
-**Founder/CEO @ Siprifi** • **Quantitative Finance** • **Startup Valuation**
+**Founder & CEO @ Siprifi** • **Quantitative Finance** • **Reverse Engineering & Low-Level Computing**
 
 <div align="center">
   
@@ -12,9 +12,9 @@
 
 </div>
 
+</div>
 
-
-Welcome to my GitHub profile! I'm passionate about **reverse engineering**, **low-level computing**, and creating **educational hacking content** in Spanish.  
+Welcome to my GitHub profile! I'm passionate about **reverse engineering**, **low-level computing**, and creating **educational hacking content** in Spanish.
 
 ---
 
@@ -28,7 +28,7 @@ A **Spanish-language channel** dedicated to:
 - 💻 Tutorials in C, Assembly, and OS development  
 - 📚 Educational content for Spanish-speaking tech learners  
 
-![Reversing GIF](https://media.giphy.com/media/3o7abB06u9bNzA8lu8/giphy.gif)  
+![Reversing GIF](https://media.giphy.com/media/3o7abB06u9bNzA8lu8/giphy.gif)
 
 ---
 
@@ -45,8 +45,6 @@ A **Spanish-language channel** dedicated to:
 
 - 🔗 GitHub: [github.com/markh4ck](https://github.com/markh4ck)  
 - 🎥 YouTube: [Markh4ck](https://www.youtube.com/@Markh4ck)  
-
-![Coding GIF]()
 
 ---
 
