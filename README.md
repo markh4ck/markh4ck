@@ -1,7 +1,18 @@
-# 👋 Hi, I'm Markh4ck
+<div align="center">
 
-![GitHub followers](https://img.shields.io/github/followers/markh4ck?style=social)
+# 👋 Hi, I'm Marc Aliaga
+
+**Founder/CEO @ Siprifi** • **Quantitative Finance** • **Startup Valuation**
+
+<div align="center">
+  
+[![markaliaga.com](https://img.shields.io/badge/🌐-markaliaga.com-brightgreen)](https://markaliaga.com)
+[![Siprifi](https://img.shields.io/badge/🚀-siprifi.com-ff6b6b)](https://www.siprifi.com)
 ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCmMBAvl3sz_jDUBa77H40dA?label=Markh4ck%20YouTube&style=social)
+
+</div>
+
+
 
 Welcome to my GitHub profile! I'm passionate about **reverse engineering**, **low-level computing**, and creating **educational hacking content** in Spanish.  
 
