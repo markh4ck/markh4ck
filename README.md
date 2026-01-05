@@ -14,7 +14,7 @@
 
 </div>
 
-Welcome to my GitHub profile! I'm passionate about **reverse engineering**, **low-level computing**, and creating **educational hacking content** in Spanish.
+Welcome to my GitHub profile! I focus on **reverse engineering**, **low-level systems**, and **quantitative finance**, combining academic research with real-world engineering and educational content.
 
 ---
 
@@ -22,13 +22,41 @@ Welcome to my GitHub profile! I'm passionate about **reverse engineering**, **lo
 
 ### 💻 [Markh4ck](https://www.youtube.com/@Markh4ck) – Reversing & Hacking
 
-A **Spanish-language channel** dedicated to:
+A **Spanish-language YouTube channel** dedicated to:
 
 - 🕵️‍♂️ Reverse engineering, binary analysis, and exploit development  
-- 💻 Tutorials in C, Assembly, and OS development  
-- 📚 Educational content for Spanish-speaking tech learners  
+- 💻 Tutorials in C, Assembly, and operating system development  
+- 📚 Educational content for Spanish-speaking cybersecurity learners  
 
 ![Reversing GIF](https://media.giphy.com/media/3o7abB06u9bNzA8lu8/giphy.gif)
+
+---
+
+## 🔬 Academic & Research Work
+
+I maintain a strong interest in **academic research and experimental engineering**, particularly at the intersection of **computer security**, **low-level systems**, and **quantitative finance**.
+
+### 🧠 Research Interests
+- Reverse engineering and binary analysis  
+- Operating systems internals and low-level computing  
+- Program analysis and exploit development  
+- Applied cryptography and protocol security  
+- Quantitative finance, market microstructure, and DeFi mechanisms  
+
+### 📚 Selected Academic & Technical Projects
+- **Binary Analysis & Reverse Engineering Labs**  
+  Practical research on ELF/PE binaries, obfuscation techniques, anti-debugging methods, and exploit primitives.
+
+- **Low-Level Systems Experiments**  
+  Kernel-level projects, bootloaders, memory management, and OS internals implemented in C and Assembly.
+
+- **Security Research & Proofs of Concept**  
+  Vulnerability research, exploit PoCs, and security analysis of real-world software and protocols.
+
+- **Quantitative Finance & DeFi Research**  
+  Market modeling, algorithmic trading strategies, and decentralized finance protocol design through **Siprifi**.
+
+> Some projects are open-source and available on GitHub, while others remain private or unpublished due to research or security constraints.
 
 ---
 
@@ -44,6 +72,7 @@ A **Spanish-language channel** dedicated to:
 ## 📫 Let's Connect
 
 - 🔗 GitHub: [github.com/markh4ck](https://github.com/markh4ck)  
+- 🌐 Website: [markaliaga.com](https://markaliaga.com)  
 - 🎥 YouTube: [Markh4ck](https://www.youtube.com/@Markh4ck)  
 
 ---
