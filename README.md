@@ -1,4 +1,4 @@
-# Hi there, I'm [Tu Nombre] 👋 🇪🇸
+# Hi there, I'm Marc Aliaga (Aka. Mark Hack)👋 🇪🇸
 
 I'm a 20-year-old **Computer Science student** and developer from Spain. I specialize in the intersection of **Cybersecurity (Reversing)** and **Decentralized Finance (Quant Finance)**. 
 
