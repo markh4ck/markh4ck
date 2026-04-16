@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Active Directory - MarkH4ck</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="doc-content">
+        <!-- Header -->
+        <div>
+            <p><img alt=""></p>
+        </div>
+        
+        <p class="title" id="h.s4ct1romldgs">
+            <span>Active Directory</span>
+        </p>
+        
+        <!-- Información de la lección -->
+        <div class="lesson-info">
+            <p><strong>Este documento fue creado por el canal de YouTube MarkH4ck</strong></p>
+            <p>
+                <span>YouTube: </span>
+                <a href="https://www.youtube.com/@MarkH4ck" target="_blank">https://www.youtube.com/@MarkH4ck</a>
+            </p>
+            <p>
+                <span>Web: </span>
+                <a href="https://markh4ck.blog/" target="_blank">Marc H4ck</a>
+            </p>
+        </div>
+
+        <!-- Introducción -->
+        <p>Antes de nada debemos entender qué es un Active Directory. Un AD básicamente es un servicio de directorio desarrollado por Microsoft para gestionar redes de computadoras en entornos Windows.</p>
+        
+        <h3>¿Qué quiere decir eso?</h3>
+        
+        <p>Podemos pensar en un AD como si fuese un directorio telefónico donde no solo guarda nombres y números (usuarios y dispositivos), sino que también verifica que seas quien dices ser (autenticación) y controla qué archivos o carpetas puedes abrir (autorización).</p>
+        
+        <p>Cuando inicias sesión en una PC de tu oficina (puedes estar en la misma red LAN o usando una VPN) no te estás validando solo en esa máquina, sino ante el Active Directory, que te da la credencial para acceder a tu correo, impresoras y carpetas compartidas…</p>
+        
+        <h3>Componentes Esenciales</h3>
+        
+        <p>El componente esencial para el AD es un servidor dedicado como Microsoft Server configurado con:</p>
+        
+        <ul>
+            <li>Rol de Active Directory Domain Services.</li>
+            <li>El servidor debe ser capaz de resolver nombres internos (ej. dc01.empresa.local). Por ello necesitamos DNS.</li>
+            <li>Base de Datos NTDS, donde se guardarán físicamente todos los objetos de la red.</li>
+            <li>Un Controlador de Dominio nunca puede tener una IP dinámica (DHCP).</li>
+        </ul>
+        
+        <p>Por otro lado necesitamos el cliente, que se conectará al servidor. Debe ser la versión enterprise o pro.</p>
+        
+        <p>Se le debe configurar de manera específica la configuración de red del cliente. La "Puerta de enlace" es tu router, pero el Servidor DNS Primario debe ser la dirección IP del Windows Server.</p>
+        
+        <img alt="Esquema de infraestructura" src="images/image3.png">
+        
+        <!-- Paso 0: Configuración de Interfaces -->
+        <div class="step-block">
+            <h2>Configuración Inicial: Interfaces de Red</h2>
+            
+            <p>El primer paso que debemos hacer es darle dos interfaces de red a nuestro servidor que actúa como Domain Controller.</p>
+            
+            <p>Para ello debemos ir a "Red" en VirtualBox y añadimos un adaptador NAT:</p>
+            
+            <img alt="Adaptador NAT VirtualBox" src="images/image16.png">
+            
+            <p>Y una red interna:</p>
+            
+            <img alt="Red interna VirtualBox" src="images/image10.png">
+            
+            <p>Esto nos servirá para generar un entorno aislado para los clientes de nuestra red, mientras podemos mantener el acceso a internet.</p>
+            
+            <p>Una vez accedemos al sistema, es importante renombrar las interfaces de red que tenemos. Para ello vamos a "Win + R" y ejecutamos "ncpa.cpl"</p>
+            
+            <img alt="Ejecutar ncpa.cpl" src="images/image22.png">
+            
+            <p>Una vez identifiquemos cuál es la red interna, debemos asignarle una IP clase B privada y DNS, debido a que un Domain Controller nunca debe tener una rotación dinámica de la IP.</p>
+            
+            <img alt="Configuración de IP estática" src="images/image13.png">
+            
+            <p class="info-card">
+                <strong>Para este ejercicio</strong> seguiremos la imagen del esquema de la infraestructura, donde la IP es <strong>172.16.0.1</strong> y el DNS es <strong>127.0.0.1</strong>
+            </p>
+            
+            <p>Una vez hecho esto, ya podemos proceder a la instalación del Active Directory.</p>
+            <p>Para ello, en el Server Manager Wizard, le damos al apartado "Add Roles and Features"</p>
+        </div>
+
+        <!-- Paso 1: Dominio -->
+        <div class="step-block">
+            <h2>Paso 1: Configuración del Dominio</h2>
+            
+            <img alt="Seleccionar Active Directory Domain Service" src="images/image2.png">
+            
+            <p>Una vez seleccionemos el "Active Directory Domain Service" y demos "Next", terminará la instalación donde posteriormente deberemos ir al "Domain Controller Options"</p>
+            
+            <img alt="Domain Controller Options" src="images/image14.png">
+            
+            <p>Y verán como les pide introducir un dominio y contraseña.</p>
+            
+            <img alt="Introducir dominio y contraseña" src="images/image11.png">
+            
+            <p>Cuando hayan hecho toda la configuración, el sistema se reiniciará y en el siguiente login entrareis como admins:</p>
+            
+            <img alt="Login como administrador" src="images/image5.png">
+            
+            <p>Una vez dentro, procederemos a la configuración de los grupos en el "Active Directory Users and Computers"</p>
+            
+            <img alt="Active Directory Users and Computers" src="images/image17.png">
+            
+            <p>Y crearemos dos grupos distintos: el de los admins y users. Para ello seguiremos este workflow:</p>
+            
+            <img alt="Crear grupos de usuarios" src="images/image6.png">
+            <img alt="Workflow de creación" src="images/image9.png">
+            
+            <p>Una vez tengamos la carpeta creada, procederemos a crear un nuevo usuario otorgándole privilegios de administrador del DC.</p>
+            
+            <img alt="Crear nuevo usuario" src="images/image18.png">
+            
+            <p>Y cuando tengan vuestro usuario creado, le dan click derecho → properties → Member Of → Domain Admins</p>
+            
+            <img alt="Propiedades del usuario" src="images/image4.png">
+            <img alt="Member Of Domain Admins" src="images/image21.png">
+            
+            <p class="success">
+                ¡Ya tendrán el Active Directory creado con el usuario administrador! Ahora pueden proceder a dar a "Sign Out" y cuando vuelvan a iniciar sesión podrán poner las credenciales de este superusuario.
+            </p>
+        </div>
+
+        <!-- Paso 2: NAT/RAS -->
+        <div class="step-block">
+            <h2>Paso 2: Configuración de NAT/RAS</h2>
+            
+            <p>En este paso configuraremos el enrutado para que los demás dispositivos puedan acceder a través de internet a través del DC.</p>
+            
+            <p>Para ello añadimos un nuevo "Add Roles and Features" y en este caso seleccionamos "Remote Access".</p>
+            
+            <img alt="Seleccionar Remote Access" src="images/image1.png">
+            
+            <p>Una vez hayamos instalado todo, nos dirigimos arriba a la derecha donde pone "Tools" para seleccionar "Routing and Remote Access" de esta manera poder configurarlo.</p>
+            
+            <img alt="Herramientas de sistema" src="images/image19.png">
+            
+            <p>Se nos abrirá este wizard, donde nos permitirá configurar el NAT:</p>
+            
+            <img alt="Wizard de NAT" src="images/image12.png">
+            <img alt="Configuración NAT" src="images/image23.png">
+            
+            <p>Y al darle "Next" veremos como nos indica seleccionar la interfaz de red pública para configurar nuestro NAT. Una vez le hayamos seleccionado la interfaz correcta, se cambiará el estado del server a verde:</p>
+            
+            <img alt="Estado del servidor en verde" src="images/image24.png">
+        </div>
+
+        <!-- Paso 3: DHCP -->
+        <div class="step-block">
+            <h2>Paso 3: Configuración de DHCP</h2>
+            
+            <p>El siguiente paso es configurar el scope para el DHCP. Básicamente el scope es el rango de direcciones IP que vamos a repartir a los dispositivos que se conecten a nuestra red.</p>
+            
+            <img alt="Configuración DHCP" src="images/image20.png">
+            
+            <h3>Conceptos Básicos de Direcciones IP</h3>
+            
+            <p>Antes de proseguir, tenemos que entender algunas nociones rápidas sobre las direcciones IP:</p>
+            
+            <div class="info-card">
+                <p><strong>La máscara de subred (Subnet Mask)</strong> es lo que le dice al dispositivo qué parte de la dirección IP es la red y qué parte es el host.</p>
+                <p><strong>En 255.255.0.0:</strong></p>
+                <ul>
+                    <li>Los 255 bloquean la parte de la red, dejando solo: 172.16.x.x</li>
+                    <li>Los 0 son los espacios libres donde el servidor DHCP asigna números del 1 al 254.</li>
+                </ul>
+            </div>
+            
+            <img alt="Tabla de subredes" src="images/image7.png">
+            
+            <p>Luego añadimos el gateway, que en este caso será la IP del DC:</p>
+            
+            <img alt="Configuración del gateway" src="images/image8.png">
+            
+            <p>Posteriormente le daremos a "Autorizar" y luego a "Refresh":</p>
+            
+            <img alt="Autorizar y refresh" src="images/image15.png">
+        </div>
+
+        <!-- Footer -->
+        <div class="lesson-info" style="margin-top: 50px; text-align: center;">
+            <p><strong>¡Tutorial completado!</strong></p>
+            <p>Ahora tienes un Active Directory completamente funcional. Para más tutoriales, visita el canal de MarkH4ck.</p>
+        </div>
+
+    </div>
+</body>
+</html>
